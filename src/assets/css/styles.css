@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+/* Logo inicia */
+
+.img-prueba {
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+}
+
+/* Termina logo */
+
+/* UL LIST - LIS */
+.container-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-list {
+    display: flex;
+}
+
+.li-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li a {
+    color: black;
+    margin: 0 4em;  
+    text-decoration: none;
+    transition: color 1s;
+    font-size: 1.5em;
+    font-family: 'Mitr', sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 90, 49);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 246, 238);
+}
+
+/* UL LIST - LIS END */
+
+/* Carrito inicia */
+
+.container-carrito{
+    display: flex;
+    align-items: center;
+}
+
+.carrito-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Termina carrito */
