@@ -71,3 +71,37 @@ nav {
 /* Termina carrito */
 
 /* CONTADOR */
+
+.contador-container {
+    width: 300px;
+    text-align: center;
+}
+
+.boton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-container button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.boton-container button:active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 90, 49);;
+}
+
+.boton-container button p:active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 90, 49);;
+}
+
+/* TERMINA CONTADOR */

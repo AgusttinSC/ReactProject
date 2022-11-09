@@ -19,9 +19,12 @@ const ItemCount = ({stock}) => {
         <p>Es el sushi más popular entre los seguidores del pescado. Su base de arroz se prensa con las manos, dándole su característica forma ovalada. Se cubre con una pieza de pescado crudo, marisco u otro ingrediente plano. Suele sazonarse con wasabi.</p>
         <p>STOCK ACTUAL : {stock}</p>
 
-        <button onClick={sumar} disabled = {contador >= stock}>+</button>
-        <p>{contador}</p>
+        <div className='boton-container'>
         <button onClick={restar} disabled = {contador <= 0}>-</button>
+        <p>{contador}</p>
+        <button onClick={sumar} disabled = {contador >= stock}>+</button>
+        </div>
+
     </div>
   )
 }
