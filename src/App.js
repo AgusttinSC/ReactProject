@@ -1,3 +1,4 @@
+import ItemCount from './components/ItemCount';
 import NavBar from './components/NavBar';
 import ItemListContainer from './ItemListContainer';
 
@@ -10,8 +11,9 @@ const App = () => {
     <div>
       <NavBar />
       <ItemListContainer greeting = {saludo}>
-        ¡Bienvenido a mi tienda!
+        ¡Soka Sushi!
       </ItemListContainer>
+      <ItemCount />
     </div>
   )
 }
