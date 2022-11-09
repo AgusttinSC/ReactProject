@@ -4,7 +4,8 @@ import ItemListContainer from './ItemListContainer';
 
 const App = () => {
 
-  const saludo = '¡Bienvenido a mi tienda!'
+  const saludo = '¡Bienvenido a mi tienda!';
+  const stock = 20
 
   return (
     
@@ -13,7 +14,7 @@ const App = () => {
       <ItemListContainer greeting = {saludo}>
         ¡Soka Sushi!
       </ItemListContainer>
-      <ItemCount />
+      <ItemCount stock= {stock} />
     </div>
   )
 }

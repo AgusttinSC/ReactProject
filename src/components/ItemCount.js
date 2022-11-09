@@ -1,14 +1,27 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ItemCount = () => {
+const ItemCount = ({stock}) => {
 
-    const [suma, setSuma] = useState(0)
+    const [contador, setContador] = useState(0)
+
+    const sumar = () => {
+        setContador(contador + 1)
+    }
+
+    const restar = () => {
+        setContador(contador - 1)
+    }
 
   return (
-    <div>
-        <button onClick={()=>setSuma(suma+1)}>+</button>
-        {suma}
+    <div className='contador-container'>
+        <h4>Nigiri</h4>
+        <p>Es el sushi más popular entre los seguidores del pescado. Su base de arroz se prensa con las manos, dándole su característica forma ovalada. Se cubre con una pieza de pescado crudo, marisco u otro ingrediente plano. Suele sazonarse con wasabi.</p>
+        <p>STOCK ACTUAL : {stock}</p>
+
+        <button onClick={sumar} disabled = {contador >= stock}>+</button>
+        <p>{contador}</p>
+        <button onClick={restar} disabled = {contador <= 0}>-</button>
     </div>
   )
 }
