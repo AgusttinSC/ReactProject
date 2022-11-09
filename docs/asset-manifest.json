@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/soka-sushi/static/css/main.855b2615.css",
+    "main.js": "/soka-sushi/static/js/main.b3e40bbc.js",
+    "static/media/logo.jpg": "/soka-sushi/static/media/logo.3759291194a286151afc.jpg",
+    "index.html": "/soka-sushi/index.html",
+    "main.855b2615.css.map": "/soka-sushi/static/css/main.855b2615.css.map",
+    "main.b3e40bbc.js.map": "/soka-sushi/static/js/main.b3e40bbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.855b2615.css",
+    "static/js/main.b3e40bbc.js"
+  ]
+}
