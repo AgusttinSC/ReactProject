@@ -1,8 +1,15 @@
 import React from 'react'
 
-const Item = () => {
+const Item = ({productos}) => {
   return (
-    <div>Item</div>
+    <div>
+    {productos.map((productos =>
+    <div>
+        <p>{productos.title}</p>
+        <p>{productos.description}</p>
+    </div> 
+    ))}
+</div>
   )
 }
 
