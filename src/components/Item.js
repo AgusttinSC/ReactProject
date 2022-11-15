@@ -1,18 +1,12 @@
-import React from 'react'
+// import React from 'react'
+// import ItemDetailContainer from './ItemDetailContainer'
 
-const Item = ({productos}) => {
-  return (
-    <div>
-    {productos.map((productos =>
-    <div>
-        <p>{productos.title}</p>
-        <p>{productos.description}</p>
-        <p>{productos.price}</p>
-        <img src={productos.pictureUrl} alt="VARIEDADESD DE SUSHI"></img>
-    </div> 
-    ))}
-</div>
-  )
-}
+// const Item = () => {
+//   return (
+//     <div>
+//       <ItemDetailContainer />
+//     </div>
+//   )
+// }
 
-export default Item
+// export default Item

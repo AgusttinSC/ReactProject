@@ -1,23 +1,8 @@
-import ItemCount from './components/ItemCount';
-import NavBar from './components/NavBar';
-import ItemListContainer from './ItemListContainer';
+import React from 'react'
+import Router from './app/Router'
 
-const App = () => {
+const App = () => <Router />
 
-  const saludo = '¡Bienvenido a mi tienda!';
-  const stock = 20
 
-  return (
-    
-    <div>
-      <NavBar />
-      <ItemListContainer greeting = {saludo}>
-        ¡Soka Sushi!
-      </ItemListContainer>
-      <ItemCount stock= {stock} />
-    </div>
-  )
-}
-
-export default App;
+export default App
 

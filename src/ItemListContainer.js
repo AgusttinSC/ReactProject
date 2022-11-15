@@ -3,9 +3,11 @@ import ItemList from './components/ItemList'
 import {useEffect, useState} from 'react';
 import {getProducts} from './assets/services/products';
 
-const ItemListContainer = ({greeting, children}) => {
 
-  
+
+const ItemListContainer = () => {
+
+  const greeting = "SOKA SUSHI"
   
     const [v, setV] = useState([])
 
@@ -18,7 +20,6 @@ const ItemListContainer = ({greeting, children}) => {
   return (
     
     <div><h2>{greeting}</h2>
-          <p>{children}</p>
           <ItemList products={v} />
     </div>
   )
