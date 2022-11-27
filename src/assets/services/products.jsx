@@ -37,3 +37,4 @@ export const getProducts = () => {
     })
     return obtieneProductos;
 }
+
